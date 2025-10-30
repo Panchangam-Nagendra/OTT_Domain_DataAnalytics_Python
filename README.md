@@ -1,54 +1,74 @@
-Project Title: OTT Domain Data Analytics
+# 🎬 OTT Domain Data Analytics
 
-Description:
-Analyzed and visualized a dataset from the over-the-top (OTT) streaming domain to derive actionable insights into content trends, user behavior and platform performance. The project leverages Python (data-wrangling, exploratory analysis), Jupyter Notebooks, and visualization libraries to showcase findings.
+This project focuses on analyzing and visualizing data from the *Over-The-Top (OTT) streaming industry* to uncover meaningful insights about content trends, user preferences, and platform performance.
 
-Key Objectives:
+---
 
-To clean, preprocess and explore an OTT streaming dataset (including metadata such as title, genre, release year, country, and possibly ratings/views).
+## 📊 Project Overview
 
-To extract meaningful insights such as which genres dominate, how release year correlates with popularity, regional differences in content, and temporal trends in titles added.
+The OTT industry has grown rapidly, with multiple platforms competing to attract users through diverse content.  
+This project uses real-world OTT data to perform *Exploratory Data Analysis (EDA)* and generate visual insights that help understand:
 
-To create effective visualisations (bar charts, heatmaps, trend lines) so stakeholders can easily interpret the insights.
+- What type of content dominates OTT platforms (Movies vs TV Shows)
+- The most popular *genres, **countries, and **release years*
+- How content trends have evolved over time
+- Key factors that influence the availability and diversity of content
 
-To demonstrate end-to-end data-analysis skills: data ingestion → cleaning → EDA → visualization → summarizing key business-questions.
+---
 
-What I Did / My Role:
+## 🧠 Objectives
 
-Imported raw dataset into a Notebook and performed initial exploratory data analysis (EDA) to understand structure, missing values, outliers, and basic distributions.
+- Clean and preprocess the OTT dataset  
+- Handle missing values, duplicates, and data inconsistencies  
+- Explore key attributes such as *Title, **Genre, **Country, **Release Year, and **Ratings*  
+- Visualize patterns and correlations between different variables  
+- Draw actionable insights for OTT business strategy
 
-Cleaned and preprocessed the data: handled missing values, converted data‐types (e.g., dates), dealt with duplicate entries, standardized categorical values (genres, countries).
+---
 
-Performed deeper analyses, for example:
+## 🧰 Tools & Technologies Used
 
-Frequency of content by genre and by country
+| Category | Tools / Libraries |
+|-----------|------------------|
+| Programming Language | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Environment | Jupyter Notebook |
+| Version Control | GitHub |
 
-Distribution of release years and any shift in trend over time
+---
 
-Relationship between type of title (movie vs show) and other variables
+## 🔍 Key Insights
 
-Possibly mapped content additions by year to user viewership or ratings (if available)
+- Movies dominate OTT platforms more than TV Shows.  
+- Drama, Comedy, and Action are the most common genres.  
+- Significant growth in OTT content additions after 2015.  
+- The USA and India are leading countries in OTT content production.  
+- OTT platforms are increasingly releasing content across multiple countries and languages.
 
-Created rich visualisations to highlight key findings: e.g., bar charts for top genres, heatmaps for genre vs country, time-series plots for content additions.
+---
 
-Summarised the business implications: e.g., “If genre X is rising in country Y, the OTT platform should prioritise content acquisitions / production in that genre for that market.”
+## 📈 Visualizations
 
-Tools & Technologies:
+Some of the visualizations created in this project include:
 
-Python (libraries such as pandas, NumPy for data manipulation)
+- Bar chart of content by *Genre*  
+- Distribution of *Release Years*  
+- Heatmap showing correlation between attributes  
+- Country-wise content analysis  
+- Trend line showing number of titles added per year  
 
-Jupyter Notebook for interactive analysis
+---
 
-Visualization libraries (e.g., Matplotlib, Seaborn)
+## 🧩 Workflow
 
-Possibly markdown cells in Notebook to document findings and insights
+1. *Data Collection:* Imported OTT dataset (CSV/Excel format).  
+2. *Data Cleaning:* Removed null values, standardized column names, formatted date fields.  
+3. *Exploratory Data Analysis (EDA):* Used Pandas & Seaborn for in-depth analysis.  
+4. *Visualization:* Created charts to summarize trends and patterns.  
+5. *Insights & Summary:* Interpreted results with business-oriented conclusions.
 
-Why this project is relevant:
+---
 
-Shows ability to work with real-world data, perform cleaning and exploratory analysis — a key part of a data analyst role.
 
-Demonstrates capability to draw business-relevant insights from data, not just technical manipulation.
-
-Matches your stated goal of being a fresher data analyst: you’re showing you can complete a full analytics workflow end-to-end.
-
-The domain (OTT streaming) is current and relevant in the media/tech industry — helps your portfolio stand out.
+---
